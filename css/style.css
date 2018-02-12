@@ -315,4 +315,18 @@ p.no-margin {
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .main-small {
+        grid-template-areas:
+            "header header header header"
+            "menu menu menu menu"
+            "img img img img"
+            "main main main main"
+            "footer footer footer footer"   !important;
+    }
+
+    .grid-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
